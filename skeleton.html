@@ -1,34 +1,65 @@
-general_assembly_logo.png
+<!DOCTYPE = HTML>
+<html>
+	<head>
+	</head>
+	<body>
+		<img src = "general_assembly_logo.png">
+		<h1>
+			General Assembly Account Creation
+		</h1>
 
-General Assembly Account Creation
+		<p>
+			Welcome to the General Assembly. General Assembly is a global institution training people all over the world in today's top technologies.
 
-Welcome to the General Assembly. General Assembly is a global
-institution training people all over the world in today's top
-technologies.
+			Please fill out the information below to create your General Assembly account. Let us know what city you're in and what course you're taking. This list is for all students. Please tell us what city you're in and whether you're taking the Immersive User Experience (UX) course or the Immersive Web Development course. 
+		</p>
 
-Please fill out the information below to create your General Assembly
-account. Let us know what city you're in and what course
-you're taking. This list is for all students. Please tell us what
-city you're in and whether you're taking the Immersive User Experience (UX)
-course or the Immersive Web Development course. 
+		<form>
+			<p>
+				City: 
+				<select name="city">
+					<option value="Seattle      "> Seattle      </option>
+					<option value="Portland     "> Portland     </option>
+					<option value="Los Angeles  "> Los Angeles  </option>
+					<option value="San Francisco"> San Francisco</option>
+					<option value="London       "> London       </option>
+					<option value="New York     "> New York     </option>
+					<option value="Hong Kong    "> Hong Kong    </option>
+				</select>
+			</p>
 
-City:
-  Seattle
-  Portland
-  Los Angeles
-  San Francisco
-  London
-  New York
-  Hong Kong
+			<p>
+				<label>
+					Course: 
+					<input name="course" type="radio" value="UX" checked>UX
+				</label>
+				<label>
+					<input name="course" type="radio" value="WDI">Web Dev
+				</label>
+			</p>
 
-Course:
-  (0) UX
-  ( ) Web Dev
+			<p>
+				Name: 
+				<input name="name">
+			</p>
 
-Name:     _________
-Email:    _________
-Password: *********
+			<p>
+				Email: 
+				<input name="email" type="email">
+			</p>
 
-[] Yes, subscribe me to the General Assembly student newsletter
+			<p>
+				Password: 
+				<input name="password" type="password>">
+			</p>
 
-[Subscribe]
+			<p>
+				<input name="subscription" type="checkbox" checked>
+				Yes, subscribe me to the General Assembly student newsletter
+			</p>
+
+			<p>
+				<input value="Subscribe" type="submit">
+			</p>
+		</form>
+	</body>
